@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "poetry-net"
+version = "0.1.0"
+description = "enviroment for GrinkoNet"
+authors = ["Artem-Gritsan"]
+readme = "README.md"
+packages = [{include = "poetry_net"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.4"
+djangorestframework = "*"
+pillow = "^9.3.0"
+djoser = "*"
+psycopg2-binary = "^2.9.5"
+djangorestframework-simplejwt = "^5.2.2"
+python-dotenv = "^0.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
